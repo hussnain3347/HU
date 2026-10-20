@@ -746,7 +746,7 @@ _G.LexusState = _G.LexusState or {
 }
 
 
-local limitTime = os.time({ year = 2026, month = 9, day = 6, hour = 00, min = 59, sec = 0 })
+local limitTime = os.time({ year = 2027, month = 9, day = 6, hour = 00, min = 59, sec = 0 })
 local currentTime = os.time(os.date("!*t"))
 local isExpired = false
 
